@@ -34,9 +34,9 @@ const Card = ({ title, description, image }) => {
       <div className="text-center absolute lg:top-[18%] md:top-[14%] top-[18%] lg:px-[1.5vw] md:px-[2.5vw] px-[3vw]">
         <h2 className="text-[#363739] lg:pb-[1vw] md:pb-[1.5vw] pb-[3vw] font-poppins font-extrabold lg:text-[1.5vw] md:text-[2.5vw] text-[4.2vw]">{title}</h2>
         <p className="text-gray-700 font-semibold lg:text-[0.9vw] md:text-[2.2vw] text-[3vw] lg:pb-[1.5vw] md:pb-[2vw] pb-[3.5vw]">{description}</p>
-        <div className="text-[#2A1768] font-semibold lg:text-[1.2vw] md:text-[2.2vw] text-[4.1vw] flex items-center justify-center">
+        <div className="text-[#2A1768] font-semibold lg:text-[1.2vw] md:text-[2.2vw] text-[3.5vw] flex items-center justify-center">
           <p>EXPLORE THIS SERVICE</p>
-          <MdKeyboardArrowRight className="lg:text-[1.5vw] text-[#2A1768]" />
+          <MdKeyboardArrowRight className="lg:text-[1.5vw] md:text-[2.2vw] text-[3.5vw] text-[#2A1768]" />
         </div>
       </div>
     </section>
